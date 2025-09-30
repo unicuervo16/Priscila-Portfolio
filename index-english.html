@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio of Priscila Simoine, Digital Marketing student and Content Creator.">
+    <meta property="og:title" content="Portfolio of Priscila Simoine">
+    <meta property="og:description" content="Discover my projects and skills in digital marketing and content creation.">
+    <meta property="og:image" content="assets/images/preview.jpg">
+    <meta name="twitter:card" content="summary_large_image">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body id="home">
+<header class="main-header">
+    <nav class="navbar">
+        <div class="logo">
+            <a href="#home">Priscila Simoine</a>
+            <p class="tagline">Digital Marketing | Content Creator</p>
+        </div>
+        <div class="language-switcher">
+            <a href="index.html">
+                <img src="assets/images/ar.svg" alt="Español" class="flag-icon">
+            </a>
+            <a href="index-english.html">
+                <img src="assets/images/gb.svg" alt="English" class="flag-icon">
+            </a>
+        </div> 
+    </nav>
+</header>
+
+<!-- Hero Section -->
+<header class="hero-section">
+    <h1>Welcome to My Portfolio</h1>
+    <p>Discover my projects and skills in digital marketing and content creation</p>
+    <a href="#projects" class="btn">See Projects</a>
+    <div class="cv-download">
+        <a href="https://drive.google.com/file/d/1eA6UcKkxJDO7wJEth2ksfDmfQ2H4mZGn/view?usp=drivesdk" 
+           target="_blank" class="btn-cv" id="cvButton">
+            <span class="cv-text">Download my CV</span>
+            <span class="cv-icon"><i class="fas fa-file-alt"></i></span>
+        </a>
+    </div> 
+</header>
+
+<section id="about" class="about-section" style="margin-top: -100px;">
+    <h2>About Me</h2>
+    <div class="about-content">
+        <p>
+            I'm Priscila Simoine, a digital marketing student passionate about content creation and web development.
+            I have experience in several technologies such as
+            <span class="neon-effect">HTML</span>, 
+            <span class="neon-effect">CSS</span>, 
+            <span class="neon-effect">JavaScript</span>, 
+            <span class="neon-effect">PHP</span>, 
+            <span class="neon-effect">WordPress</span>.
+        </p>
+    </div>
+</section>
+
+<!-- Projects Section -->
+<section id="projects" class="projects-section">
+    <h2>Featured Projects</h2>
+    <div class="projects-grid">
+        <!-- Project 1: CIPEF Consultancy -->
+        <div class="project-card">
+            <div class="card-inner">
+                <div class="card-front">
+                    <img src="assets/images/CIPEF.png" alt="CIPEF Consultancy">
+                    <h3>CIPEF Consultancy</h3>
+                </div>
+                <div class="card-back">
+                    <p>Website developed with WordPress and Elementor, focused on professional consulting services.</p>
+                    <p><strong>Technologies:</strong> WordPress, PHP, Elementor, Plugins, HTML, CSS</p>
+                    <a href="https://consultoracipef.com.ar/" target="_blank" class="btn">Visit Site</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Project 2: Portico Restaurant -->
+        <div class="project-card">
+            <div class="card-inner">
+                <div class="card-front">
+                    <img src="assets/images/PORTICO.png" alt="Portico Restaurant">
+                    <h3>Portico Restaurant</h3>
+                </div>
+                <div class="card-back">
+                    <p>Restaurant created with a robust architecture and responsive design.</p>
+                    <p><strong>Technologies:</strong> .NET 8, SQL, Bootstrap, JS, HTML, CSS</p>
+                    <a href="https://restauranteporticobarcelona.es/" target="_blank" class="btn">Visit Site</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Project 3: Content Creation -->
+        <div class="project-card">
+            <div class="card-inner">
+                <div class="card-front">
+                    <img src="assets/images/0d3377b_potente-creador-de-videos-de-marketing-webp.png" style="height:210px;" alt="Content Creation">
+                    <h3>Content Creation</h3>
+                </div>
+                <div class="card-back">
+                    <p>Promotional video creation for local businesses.</p>
+                    <p><strong>Technologies:</strong> CapCut, Canva, TikTok tools.</p>
+                    <a href="https://drive.google.com/drive/folders/14lXN3ewe8-JzO27bWpPZqzgy_2srmmca" target="_blank" class="btn">See Work</a>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Project 4: Study Projects -->
+        <div class="project-card">
+            <div class="card-inner">
+                <div class="card-front">
+                    <img src="assets/images/images.jpg" alt="Study Projects" style="width: 850px; height:210px;">
+                    <h3>Study Projects</h3>
+                </div>
+                <div class="card-back">
+                    <p>Some theoretical and practical assignments from the Advanced Technical Degree in Digital Marketing.</p>
+                    <a href="https://drive.google.com/drive/folders/1fg0Atzy5mrfqKxpKCE_xJ5KltPioKM4_" target="_blank" class="btn">See Work</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer class="footer">
+    <div class="footer-container">
+        <!-- LinkedIn -->
+        <a href="https://www.linkedin.com/in/priscila-simoine/" target="_blank" class="footer-link">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="white" viewBox="0 0 24 24" width="24px" height="24px">
+                <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.761 0 5-2.239 5-5v-14c0-2.761-2.239-5-5-5zm-11 19h-3v-10h3v10zm-1.5-11.372c-.966 0-1.75-.783-1.75-1.749s.784-1.749 1.75-1.749c.965 0 1.75.783 1.75 1.749s-.785 1.749-1.75 1.749zm13.5 11.372h-3v-5.539c0-3.367-4-3.108-4 0v5.539h-3v-10h3v1.422c1.396-2.586 7-2.777 7 2.476v6.102z"/>
+            </svg>
+            LinkedIn
+        </a>
+        <!-- WhatsApp -->
+        <a href="https://api.whatsapp.com/send?phone=5492974353178" target="_blank" class="footer-link">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="24px" height="24px" fill="white">
+                <path d="M16.01 3.57c-6.9 0-12.5 5.6-12.5 12.5 0 2.19.58 4.29 1.68 6.15l-1.8 6.6 6.8-1.78c1.8 1 3.8 1.57 5.82 1.57 6.9 0 12.5-5.6 12.5-12.5 0-6.89-5.61-12.49-12.5-12.49zm0 23.59c-1.82 0-3.58-.46-5.14-1.33l-.37-.21-4.06 1.06 1.08-4.01-.25-.41c-1.05-1.76-1.61-3.79-1.61-5.88 0-6.02 4.9-10.91 10.92-10.91 6.02 0 10.91 4.89 10.91 10.91 0 6.01-4.9 10.91-10.91 10.91zm5.69-7.56c-.31-.16-1.83-.91-2.11-1.01-.28-.1-.49-.15-.7.15-.2.31-.81 1-1 1.2-.18.2-.36.22-.66.07-.31-.16-1.3-.48-2.47-1.53-.91-.81-1.53-1.81-1.71-2.11-.18-.31-.02-.48.14-.63.15-.15.31-.36.46-.54.15-.18.2-.31.31-.52.1-.2.05-.38-.02-.53-.08-.15-.7-1.7-.95-2.31-.25-.61-.51-.53-.7-.53-.18 0-.39-.02-.61-.02-.22 0-.56.08-.85.38-.29.31-1.12 1.09-1.12 2.66 0 1.56 1.14 3.07 1.3 3.28.15.2 2.23 3.4 5.41 4.76.76.33 1.35.53 1.81.68.76.24 1.45.21 2 .13.61-.09 1.83-.75 2.09-1.47.26-.71.26-1.32.18-1.46-.08-.13-.28-.2-.59-.36z"/>
+            </svg>
+            WhatsApp
+        </a>
+    </div>
+</footer>
+
+<script src="js/scripts.js"></script>
+<script src="js/skillsChart.js"></script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        gsap.to(".darkroom-sign-container", {
+            y: 150,
+            duration: 2,
+            ease: "bounce.out"
+        });
+
+        gsap.to(".darkroom-sign", {
+            rotation: -5,
+            yoyo: true,
+            repeat: -1,
+            ease: "power1.inOut",
+            duration: 3
+        });
+
+        // Generate floating dust particles
+        function createDust() {
+            const dustContainer = document.querySelector(".dust-container");
+            for (let i = 0; i < 15; i++) {
+                let dust = document.createElement("div");
+                dust.classList.add("dust");
+                dust.style.left = Math.random() * 100 + "vw";
+                dust.style.top = Math.random() * 30 + "vh";
+                dustContainer.appendChild(dust);
+                
+                gsap.to(dust, {
+                    y: 100,
+                    opacity: 1,
+                    duration: Math.random() * 3 + 2,
+                    ease: "linear",
+                    repeat: -1,
+                    delay: Math.random() * 5
+                });
+            }
+        }
+        createDust();
+    });
+</script>
+</body>
+</html>
